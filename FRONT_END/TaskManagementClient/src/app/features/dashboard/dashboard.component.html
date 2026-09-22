@@ -1,0 +1,101 @@
+<div class="row mb-4">
+  <div class="col-12">
+    <h2 class="fw-bold">Dashboard</h2>
+    <p class="text-muted">Overview of your task statuses</p>
+  </div>
+</div>
+<div class="row mb-4">
+  <div class="col-md-4">
+    <div class="card bg-primary text-white text-center shadow-sm">
+      <div class="card-body">
+        <h3 class="card-title">To Do</h3>
+        <h1 class="display-4 fw-bold">{{ todoCount }}</h1>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card bg-warning text-dark text-center shadow-sm">
+      <div class="card-body">
+        <h3 class="card-title">In Progress</h3>
+        <h1 class="display-4 fw-bold">{{ inProgressCount }}</h1>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card bg-success text-white text-center shadow-sm">
+      <div class="card-body">
+        <h3 class="card-title">Done</h3>
+        <h1 class="display-4 fw-bold">{{ doneCount }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card shadow-sm mb-4">
+  <div class="card-body">
+    <h5 class="card-title mb-3"><i class="bi bi-funnel"></i> Filters</h5>
+    <div class="row g-3">
+      <div class="col-md-4">
+        <select class="form-select" [(ngModel)]="filterStatus" (change)="applyFilters()">
+          <option value="">All Statuses</option>
+          <option value="To Do">To Do</option>
+          <option value="In Progress">In Progress</option>
+          <option value="Done">Done</option>
+        </select>
+      </div>
+      <div class="col-md-4">
+        <select class="form-select" [(ngModel)]="filterPriority" (change)="applyFilters()">
+          <option value="">All Priorities</option>
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+      </div>
+      <div class="col-md-4">
+        <div class="input-group">
+          <input type="date" class="form-control" [(ngModel)]="filterDeadline" (change)="applyFilters()">
+          <button class="btn btn-outline-secondary" type="button" *ngIf="filterDeadline" (click)="filterDeadline=''; applyFilters()" title="Clear date filter">
+            <i class="bi bi-x-lg"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card shadow-sm">
+  <div class="card-body">
+    <h5 class="card-title">Filtered Tasks</h5>
+    <div class="table-responsive mt-3">
+      <table class="table table-hover align-middle">
+        <thead class="table-light">
+          <tr>
+            <th>Title</th>
+            <th>Status</th>
+            <th>Priority</th>
+            <th>Deadline</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let task of filteredTasks">
+            <td class="fw-bold">{{ task.title }}</td>
+            <td>
+              <span class="badge" 
+                [ngClass]="{'bg-primary': task.status === 'To Do', 'bg-warning text-dark': task.status === 'In Progress', 'bg-success': task.status === 'Done'}">
+                {{ task.status }}
+              </span>
+            </td>
+            <td>
+              <span class="badge" 
+                [ngClass]="{'bg-danger': task.priority === 'High', 'bg-secondary': task.priority === 'Medium', 'bg-info': task.priority === 'Low'}">
+                {{ task.priority }}
+              </span>
+            </td>
+            <td>{{ task.deadline | date:'mediumDate' }}</td>
+          </tr>
+          <tr *ngIf="filteredTasks.length === 0">
+            <td colspan="4" class="text-center text-muted">No tasks match your filters.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

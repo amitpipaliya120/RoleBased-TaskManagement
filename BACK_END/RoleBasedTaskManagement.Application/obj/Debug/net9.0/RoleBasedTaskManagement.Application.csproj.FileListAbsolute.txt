@@ -1,0 +1,15 @@
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Application\obj\Debug\net9.0\RoleBasedTaskManagement.Application.csproj.AssemblyReference.cache
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Application\obj\Debug\net9.0\RoleBasedTaskManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Application\obj\Debug\net9.0\RoleBasedTaskManagement.Application.AssemblyInfoInputs.cache
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Application\obj\Debug\net9.0\RoleBasedTaskManagement.Application.AssemblyInfo.cs
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Application\obj\Debug\net9.0\RoleBasedTaskManagement.Application.csproj.CoreCompileInputs.cache
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Application\bin\Debug\net9.0\RoleBasedTaskManagement.Application.deps.json
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Application\bin\Debug\net9.0\RoleBasedTaskManagement.Application.dll
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Application\bin\Debug\net9.0\RoleBasedTaskManagement.Application.pdb
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Application\bin\Debug\net9.0\RoleBasedTaskManagement.Domain.dll
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Application\bin\Debug\net9.0\RoleBasedTaskManagement.Domain.pdb
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Application\obj\Debug\net9.0\RoleBase.5FE58F6F.Up2Date
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Application\obj\Debug\net9.0\RoleBasedTaskManagement.Application.dll
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Application\obj\Debug\net9.0\refint\RoleBasedTaskManagement.Application.dll
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Application\obj\Debug\net9.0\RoleBasedTaskManagement.Application.pdb
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Application\obj\Debug\net9.0\ref\RoleBasedTaskManagement.Application.dll

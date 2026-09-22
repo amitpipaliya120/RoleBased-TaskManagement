@@ -1,0 +1,29 @@
+<div class="login-container">
+  <div class="login-box">
+    <h2>Team Task Manager</h2>
+    <p>Please log in to continue</p>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <div class="form-group mb-3">
+        <label for="email">Email</label>
+        <input id="email" type="email" formControlName="email" placeholder="manager@example.com" class="form-control"
+               [ngClass]="{'is-invalid': loginForm.get('email')?.invalid && loginForm.get('email')?.touched}" />
+        <div class="invalid-feedback">A valid email is required.</div>
+      </div>
+      <div class="form-group mb-4">
+        <label for="password">Password</label>
+        <div class="input-group">
+          <input id="password" [type]="showPassword ? 'text' : 'password'" formControlName="password" placeholder="••••••••" class="form-control border-end-0"
+                 [ngClass]="{'is-invalid': loginForm.get('password')?.invalid && loginForm.get('password')?.touched}" />
+          <button class="btn btn-outline-secondary bg-transparent border-start-0 text-muted" type="button" (click)="togglePasswordVisibility()">
+            <i class="bi" [ngClass]="showPassword ? 'bi-eye-slash' : 'bi-eye'"></i>
+          </button>
+          <div class="invalid-feedback">Password is required (min 6 chars).</div>
+        </div>
+      </div>
+      <button type="submit" [disabled]="loginForm.invalid" class="btn btn-primary w-100">Login</button>
+      <div class="text-center mt-3">
+        <small class="text-muted">Don't have an account? <a routerLink="/register">Register here</a></small>
+      </div>
+    </form>
+  </div>
+</div>

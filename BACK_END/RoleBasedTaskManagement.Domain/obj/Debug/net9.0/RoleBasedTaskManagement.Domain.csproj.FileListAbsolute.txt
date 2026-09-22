@@ -1,0 +1,11 @@
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Domain\bin\Debug\net9.0\RoleBasedTaskManagement.Domain.deps.json
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Domain\bin\Debug\net9.0\RoleBasedTaskManagement.Domain.dll
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Domain\bin\Debug\net9.0\RoleBasedTaskManagement.Domain.pdb
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Domain\obj\Debug\net9.0\RoleBasedTaskManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Domain\obj\Debug\net9.0\RoleBasedTaskManagement.Domain.AssemblyInfoInputs.cache
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Domain\obj\Debug\net9.0\RoleBasedTaskManagement.Domain.AssemblyInfo.cs
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Domain\obj\Debug\net9.0\RoleBasedTaskManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Domain\obj\Debug\net9.0\RoleBasedTaskManagement.Domain.dll
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Domain\obj\Debug\net9.0\refint\RoleBasedTaskManagement.Domain.dll
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Domain\obj\Debug\net9.0\RoleBasedTaskManagement.Domain.pdb
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Domain\obj\Debug\net9.0\ref\RoleBasedTaskManagement.Domain.dll

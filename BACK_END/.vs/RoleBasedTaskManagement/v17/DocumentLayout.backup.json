@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Amit Pipaliya\\RoleBased_TaskManagement\\BACK_END\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B478B98-7066-4B2A-9591-64EA2E5951E1}|RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj|c:\\amit pipaliya\\rolebased_taskmanagement\\back_end\\rolebasedtaskmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B478B98-7066-4B2A-9591-64EA2E5951E1}|RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj|solutionrelative:rolebasedtaskmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B478B98-7066-4B2A-9591-64EA2E5951E1}|RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj|c:\\amit pipaliya\\rolebased_taskmanagement\\back_end\\rolebasedtaskmanagement.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B478B98-7066-4B2A-9591-64EA2E5951E1}|RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj|solutionrelative:rolebasedtaskmanagement.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B478B98-7066-4B2A-9591-64EA2E5951E1}|RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj|c:\\amit pipaliya\\rolebased_taskmanagement\\back_end\\rolebasedtaskmanagement.api\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B478B98-7066-4B2A-9591-64EA2E5951E1}|RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj|solutionrelative:rolebasedtaskmanagement.api\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B478B98-7066-4B2A-9591-64EA2E5951E1}|RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj|c:\\amit pipaliya\\rolebased_taskmanagement\\back_end\\rolebasedtaskmanagement.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B478B98-7066-4B2A-9591-64EA2E5951E1}|RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj|solutionrelative:rolebasedtaskmanagement.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B478B98-7066-4B2A-9591-64EA2E5951E1}|RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj|c:\\amit pipaliya\\rolebased_taskmanagement\\back_end\\rolebasedtaskmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B478B98-7066-4B2A-9591-64EA2E5951E1}|RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj|solutionrelative:rolebasedtaskmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B478B98-7066-4B2A-9591-64EA2E5951E1}|RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj|c:\\amit pipaliya\\rolebased_taskmanagement\\back_end\\rolebasedtaskmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B478B98-7066-4B2A-9591-64EA2E5951E1}|RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj|solutionrelative:rolebasedtaskmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B478B98-7066-4B2A-9591-64EA2E5951E1}|RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj|c:\\amit pipaliya\\rolebased_taskmanagement\\back_end\\rolebasedtaskmanagement.api\\rolebasedtaskmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4B478B98-7066-4B2A-9591-64EA2E5951E1}|RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj|solutionrelative:rolebasedtaskmanagement.api\\rolebasedtaskmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Amit Pipaliya\\RoleBased_TaskManagement\\BACK_END\\RoleBasedTaskManagement.API\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "RoleBasedTaskManagement.API\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Amit Pipaliya\\RoleBased_TaskManagement\\BACK_END\\RoleBasedTaskManagement.API\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "RoleBasedTaskManagement.API\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T12:06:16.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeamsController.cs",
+              "DocumentMoniker": "C:\\Amit Pipaliya\\RoleBased_TaskManagement\\BACK_END\\RoleBasedTaskManagement.API\\Controllers\\TeamsController.cs",
+              "RelativeDocumentMoniker": "RoleBasedTaskManagement.API\\Controllers\\TeamsController.cs",
+              "ToolTip": "C:\\Amit Pipaliya\\RoleBased_TaskManagement\\BACK_END\\RoleBasedTaskManagement.API\\Controllers\\TeamsController.cs",
+              "RelativeToolTip": "RoleBasedTaskManagement.API\\Controllers\\TeamsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T12:06:15.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Amit Pipaliya\\RoleBased_TaskManagement\\BACK_END\\RoleBasedTaskManagement.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RoleBasedTaskManagement.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Amit Pipaliya\\RoleBased_TaskManagement\\BACK_END\\RoleBasedTaskManagement.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RoleBasedTaskManagement.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T11:57:29.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Amit Pipaliya\\RoleBased_TaskManagement\\BACK_END\\RoleBasedTaskManagement.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "RoleBasedTaskManagement.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Amit Pipaliya\\RoleBased_TaskManagement\\BACK_END\\RoleBasedTaskManagement.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "RoleBasedTaskManagement.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAlwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T12:21:51.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Amit Pipaliya\\RoleBased_TaskManagement\\BACK_END\\RoleBasedTaskManagement.API\\appsettings.json",
+              "RelativeDocumentMoniker": "RoleBasedTaskManagement.API\\appsettings.json",
+              "ToolTip": "C:\\Amit Pipaliya\\RoleBased_TaskManagement\\BACK_END\\RoleBasedTaskManagement.API\\appsettings.json",
+              "RelativeToolTip": "RoleBasedTaskManagement.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-21T11:58:50.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Amit Pipaliya\\RoleBased_TaskManagement\\BACK_END\\RoleBasedTaskManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "RoleBasedTaskManagement.API\\Program.cs",
+              "ToolTip": "C:\\Amit Pipaliya\\RoleBased_TaskManagement\\BACK_END\\RoleBasedTaskManagement.API\\Program.cs",
+              "RelativeToolTip": "RoleBasedTaskManagement.API\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T11:40:44.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoleBasedTaskManagement.API.csproj",
+              "DocumentMoniker": "C:\\Amit Pipaliya\\RoleBased_TaskManagement\\BACK_END\\RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj",
+              "RelativeDocumentMoniker": "RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj",
+              "ToolTip": "C:\\Amit Pipaliya\\RoleBased_TaskManagement\\BACK_END\\RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj",
+              "RelativeToolTip": "RoleBasedTaskManagement.API\\RoleBasedTaskManagement.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-21T11:40:37.569Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

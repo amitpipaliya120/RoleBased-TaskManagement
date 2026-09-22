@@ -1,0 +1,119 @@
+<div class="container py-4">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="fw-bold">{{ isAdmin ? 'Employee Management' : 'My Team' }}</h2>
+    <button class="btn btn-primary" *ngIf="isAdmin" (click)="startCreate()">
+      <i class="bi bi-person-plus"></i> Add Employee
+    </button>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="card shadow-sm">
+        <div class="card-body p-0">
+          <table class="table table-hover mb-0">
+            <thead class="table-light">
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Status</th>
+                <th *ngIf="isAdmin">Assigned To</th>
+                <th class="text-end" *ngIf="isAdmin">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let user of users">
+                <td>#{{ user.userId }}</td>
+                <td class="fw-bold">{{ user.name }}</td>
+                <td>{{ user.email }}</td>
+                <td>
+                  <span class="badge" 
+                        [ngClass]="{
+                          'bg-danger': user.roleName === 'Admin',
+                          'bg-primary': user.roleName === 'Manager',
+                          'bg-secondary': user.roleName === 'User'
+                        }">
+                    {{ user.roleName }}
+                  </span>
+                </td>
+                <td>
+                  <span class="badge" [ngClass]="user.isActive ? 'bg-success' : 'bg-secondary'">
+                    {{ user.isActive ? 'Active' : 'Inactive' }}
+                  </span>
+                </td>
+                <td *ngIf="isAdmin">{{ user.managerName || (user.roleName === 'User' ? 'Unassigned' : '-') }}</td>
+                <td class="text-end" *ngIf="isAdmin" (click)="$event.stopPropagation()">
+                  <button class="btn btn-outline-danger btn-sm" *ngIf="user.roleName !== 'Admin'" (click)="confirmDeleteUser(user.userId)" title="Delete User">
+                    <i class="bi bi-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr *ngIf="users.length === 0">
+                <td [attr.colspan]="isAdmin ? 8 : 5" class="text-center py-4 text-muted">No employees found.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<dialog #deleteUserModal class="border-0 shadow-lg rounded p-4 text-center" style="max-width: 400px; width: 100%; top: 50%; transform: translateY(-50%); position: fixed; margin: 0 auto; backdrop-filter: blur(5px);">
+  <h4 class="mb-3 text-danger"><i class="bi bi-exclamation-triangle"></i> Confirm Delete</h4>
+  <p>Are you sure you want to deactivate/delete this employee? This action cannot be undone.</p>
+  <div class="d-flex justify-content-center gap-2 mt-4">
+    <button type="button" class="btn btn-secondary" (click)="deleteUserModal.close(); userToDelete = null">Cancel</button>
+    <button type="button" class="btn btn-danger" (click)="executeDeleteUser()">Delete</button>
+  </div>
+</dialog>
+<dialog #addClientModal class="border-0 shadow-lg rounded p-4" style="max-width: 500px; width: 100%; top: 50%; transform: translateY(-50%); position: fixed; margin: 0 auto; backdrop-filter: blur(5px);">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h5 class="m-0 fw-bold">New Employee</h5>
+    <button type="button" class="btn-close" (click)="cancelCreate()"></button>
+  </div>
+  <form [formGroup]="userForm" (ngSubmit)="saveUser()">
+    <div class="mb-3">
+      <label class="form-label">Full Name</label>
+      <input type="text" class="form-control" formControlName="name"
+             [ngClass]="{'is-invalid': userForm.get('name')?.invalid && userForm.get('name')?.touched}">
+      <div class="invalid-feedback">Name must be at least 3 characters.</div>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Email</label>
+      <input type="email" class="form-control" formControlName="email"
+             [ngClass]="{'is-invalid': userForm.get('email')?.invalid && userForm.get('email')?.touched}">
+      <div class="invalid-feedback">Enter a valid email.</div>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Password</label>
+      <input type="text" class="form-control" formControlName="passwordHash"
+             [ngClass]="{'is-invalid': userForm.get('passwordHash')?.invalid && userForm.get('passwordHash')?.touched}">
+      <div class="invalid-feedback">Password must be at least 6 characters.</div>
+    </div>
+    <div class="mb-4">
+      <label class="form-label fw-bold text-primary">Assign Role</label>
+      <select class="form-select border-primary" formControlName="roleId">
+        <option [value]="3">User</option>
+        <option [value]="2">Manager</option>
+      </select>
+    </div>
+    <div class="mb-4" *ngIf="userForm.get('roleId')?.value == 3">
+      <label class="form-label fw-bold text-success">Assign to Manager</label>
+      <select class="form-select border-success" formControlName="managerId"
+             [ngClass]="{'is-invalid': userForm.get('roleId')?.value == 3 && !userForm.get('managerId')?.value && userForm.get('managerId')?.touched}">
+        <option [value]="null" disabled selected>Select a Manager...</option>
+        <option *ngFor="let m of managersList" [value]="m.userId">{{ m.name }} ({{ m.email }})</option>
+      </select>
+      <div class="invalid-feedback">Please select a manager for this user.</div>
+    </div>
+    <div class="d-flex gap-2 justify-content-end">
+      <button type="button" class="btn btn-outline-secondary" (click)="cancelCreate()">Cancel</button>
+      <button type="submit" class="btn btn-primary" [disabled]="userForm.invalid">Save Employee</button>
+    </div>
+  </form>
+</dialog>
+<style>
+  dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+</style>

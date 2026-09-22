@@ -1,0 +1,47 @@
+<div class="register-container">
+  <div class="register-box">
+    <h2>Create an Account</h2>
+    <p>Join the Team Task Manager</p>
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input id="name" type="text" formControlName="name" placeholder="John Doe" class="form-control"
+               [ngClass]="{'is-invalid': registerForm.get('name')?.invalid && registerForm.get('name')?.touched}" />
+        <div class="invalid-feedback">Name is required (min 3 chars).</div>
+      </div>
+      <div class="form-group mt-3">
+        <label for="email">Email</label>
+        <input id="email" type="email" formControlName="email" placeholder="john@example.com" class="form-control"
+               [ngClass]="{'is-invalid': registerForm.get('email')?.invalid && registerForm.get('email')?.touched}" />
+        <div class="invalid-feedback">A valid email is required.</div>
+      </div>
+      <div class="form-group mt-3">
+        <label for="passwordHash">Password</label>
+        <div class="input-group">
+          <input id="passwordHash" [type]="showPassword ? 'text' : 'password'" formControlName="passwordHash" placeholder="••••••••" class="form-control border-end-0"
+                 [ngClass]="{'is-invalid': registerForm.get('passwordHash')?.invalid && registerForm.get('passwordHash')?.touched}" />
+          <button class="btn btn-outline-secondary bg-transparent border-start-0 text-muted" type="button" (click)="togglePasswordVisibility()">
+            <i class="bi" [ngClass]="showPassword ? 'bi-eye-slash' : 'bi-eye'"></i>
+          </button>
+          <div class="invalid-feedback">Password is required (min 6 chars).</div>
+        </div>
+      </div>
+      <div class="form-group mt-3">
+        <label for="confirmPassword">Confirm Password</label>
+        <div class="input-group">
+          <input id="confirmPassword" [type]="showConfirmPassword ? 'text' : 'password'" formControlName="confirmPassword" placeholder="••••••••" class="form-control border-end-0"
+                 [ngClass]="{'is-invalid': (registerForm.get('confirmPassword')?.invalid && registerForm.get('confirmPassword')?.touched) || (registerForm.hasError('passwordMismatch') && registerForm.get('confirmPassword')?.touched)}" />
+          <button class="btn btn-outline-secondary bg-transparent border-start-0 text-muted" type="button" (click)="toggleConfirmPasswordVisibility()">
+            <i class="bi" [ngClass]="showConfirmPassword ? 'bi-eye-slash' : 'bi-eye'"></i>
+          </button>
+          <div class="invalid-feedback" *ngIf="registerForm.hasError('passwordMismatch') && registerForm.get('confirmPassword')?.touched">Passwords do not match.</div>
+          <div class="invalid-feedback" *ngIf="registerForm.get('confirmPassword')?.hasError('required') && registerForm.get('confirmPassword')?.touched && !registerForm.hasError('passwordMismatch')">Please confirm your password.</div>
+        </div>
+      </div>
+      <button type="submit" [disabled]="registerForm.invalid" class="btn btn-primary mt-4 w-100">Register</button>
+      <div class="text-center mt-3">
+        <small class="text-muted">Already have an account? <a routerLink="/login">Log in here</a></small>
+      </div>
+    </form>
+  </div>
+</div>

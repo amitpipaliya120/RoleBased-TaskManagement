@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "BoIotJ3rbJ7C4Q3iqOFFERjgtVrjaCSnwwRX1+YNHPU=",
+  "Source": "RoleBasedTaskManagement.API",
+  "BasePath": "_content/RoleBasedTaskManagement.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,1 @@
+﻿namespace RoleBasedTaskManagement.Application;public class Class1{}

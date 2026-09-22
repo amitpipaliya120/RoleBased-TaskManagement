@@ -1,0 +1,1 @@
+﻿namespace RoleBasedTaskManagement.Infrastructure;public class Class1{}

@@ -1,0 +1,17 @@
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\obj\Debug\net9.0\RoleBasedTaskManagement.Infrastructure.csproj.AssemblyReference.cache
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\obj\Debug\net9.0\RoleBasedTaskManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\obj\Debug\net9.0\RoleBasedTaskManagement.Infrastructure.AssemblyInfoInputs.cache
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\obj\Debug\net9.0\RoleBasedTaskManagement.Infrastructure.AssemblyInfo.cs
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\obj\Debug\net9.0\RoleBasedTaskManagement.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\bin\Debug\net9.0\RoleBasedTaskManagement.Infrastructure.deps.json
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\bin\Debug\net9.0\RoleBasedTaskManagement.Infrastructure.dll
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\bin\Debug\net9.0\RoleBasedTaskManagement.Infrastructure.pdb
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\bin\Debug\net9.0\RoleBasedTaskManagement.Application.dll
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\bin\Debug\net9.0\RoleBasedTaskManagement.Domain.dll
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\bin\Debug\net9.0\RoleBasedTaskManagement.Application.pdb
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\bin\Debug\net9.0\RoleBasedTaskManagement.Domain.pdb
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\obj\Debug\net9.0\RoleBase.5D0F88C1.Up2Date
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\obj\Debug\net9.0\RoleBasedTaskManagement.Infrastructure.dll
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\obj\Debug\net9.0\refint\RoleBasedTaskManagement.Infrastructure.dll
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\obj\Debug\net9.0\RoleBasedTaskManagement.Infrastructure.pdb
+C:\Amit Pipaliya\RoleBased_TaskManagement\BACK_END\RoleBasedTaskManagement.Infrastructure\obj\Debug\net9.0\ref\RoleBasedTaskManagement.Infrastructure.dll
